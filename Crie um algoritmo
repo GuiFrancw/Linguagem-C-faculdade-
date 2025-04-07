@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+#include <stdio.h>
+
+int main() {
+    int idade;
+
+    // Pede a idade ao usuário
+    printf("Qual sua idade? ");
+    scanf("%d", &idade);
+
+    // Verifica se é maior de idade
+    if (idade >= 18) {
+        printf("Você é maior de idade!\n");
+    } else {
+        printf("Você ainda é menor de idade!\n");
+    }
+
+    return 0;
+}
